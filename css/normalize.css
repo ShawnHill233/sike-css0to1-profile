@@ -100,6 +100,7 @@ ul.inline-items li {
 .info-section {
   background-color: #fff;
   padding: 30px 60px;
+  overflow: hidden;
 }
 
 .info-section header h2 {
@@ -171,6 +172,50 @@ h1 {
 
   margin-bottom: 20px;
 }
+
+.education-experience__list {
+  list-style: none;
+}
+
+.education-experience__list li {
+  margin-top: 80px;
+}
+
+.education-experience__list img {
+  float: left;
+  width: 180px;
+}
+
+.education-experience__content {
+  margin-left: 220px;
+}
+
+
+.photos__list {
+  list-style: none;
+}
+
+.photos__list li {
+  float: left;
+  padding: 10px;
+  width: 25%;
+  overflow: hidden;
+}
+
+.photos__list li img {
+  width: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
 
 
 article,
